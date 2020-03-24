@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit:300,400,700&display=swap');
+body{
+  font-size: 15px;
+  font-family: 'Kanit', sans-serif;
+  background-color: #212235;
+}
+
+header{
+  background-color: rgba(30, 221, 142, 0.74);
+  text-align: center;
+  font-size: 24px;
+  color: #ffffff;
+  position: absolute;
+  width: 100%;
+}
+
+#hero{
+  background-image: url("../img/espacionuevo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: #ffffff;
+  padding: 6px 0;
+  text-align: center;
+}
+
+#hero h1{
+  color: #ffffff;
+}
+
+#hero h2{
+  color: #8658d2;
+}
+
+#hero h3{
+  color: #1edd8e;
+}
+
+#hero2{
+  background-image: url("../img/espacionuevo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: #ffffff;
+  padding: 6px 0;
+  text-align: center;
+}
+
+#planets-align{
+  margin-top: 20px;
+  padding-top: 300px;
+}
+
+#info-about-me{
+  margin-top: 20px;
+  padding-top: 300px;
+}
+
+#servicios-info{
+  margin-top: 20px;
+  padding-top: 300px;
+}
+
+#contact{
+  margin-top: 20px;
+  padding-top: 300px;
+}
+
+#portafolio-info{
+  margin-top: 20px;
+  padding-top: 300px;
+}
+
+#map{
+  width: 100%;
+  height: 400px;
+}
+/*Pruebas nada mas*/
+#contact h1, p, h3{
+  color: #ffffff;
+}
+
+#collapseOne{
+  color: #212235;
+}
+
+#servicios-info{
+  padding-bottom: 10%;
+}
+
+span{
+  color: #1edd8e;
+}
+
+#portafolio-info{
+  padding-bottom: 5%;
+}
+
+#videos video{
+  width: 100%;
+}
+
+#videos{
+padding-top: 5%;
+}
+#atom{
+  padding-top:  5%;
+  padding-bottom: 5%;
+}
+
+ #atom .separation-web img{
+  padding-top: 15px;
+}
+
+#servicios-info .btn-dark{
+  margin-top:20px;
+  background-color: #1edd8e;
+  font-size: 20px;
+  border-radius: 50px;
+}
+#servicios-info .btn-dark:hover{
+  background-color: #8658d2;
+}
+
+#atom .btn-dark{
+  margin-top:20px;
+  background-color: #1edd8e;
+  font-size: 20px;
+  border-radius: 50px;
+}
+
+#atom .btn-dark:hover{
+  background-color: #8658d2;
+}
+
+#contact .btn-dark{
+  margin-top:20px;
+  background-color: #1edd8e;
+  font-size: 20px;
+  border-radius: 50px;
+}
+
+#contact .btn-dark:hover{
+  background-color: #8658d2;
+}
+
+#info-footer i{
+  font-size: 22px;
+}
+
+#info-footer i:hover{
+  color: #1edd8e;
+}
+
+#info-footer{
+  background-color: rgba(13, 12, 20, 0.64);
+  color: #a2a2a2;
+  padding: 20px 0;
+  font-size: 13px;
+}
+#info-footer h4{
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #dfdfdf;
+  margin-bottom: 25px;
+}
+
+#copy-right{
+  background-color:rgba(13, 12, 20, 0.64);
+  color: #888888;
+  padding: 10px 0;
+  font-size: 12px;
+}
+
+#copy-right a{
+  color: #888;
+}
+
+#copy-right a:hover{
+  color: #fff;
+}
+
+.titulos{
+  font-size: 24px;
+  color: #fff;
+}
+.titulos2{
+  font-size: 24px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.info-texto p{
+  font-size: 19px;
+  color: #fff;
+  text-align: left;
+}
+
+.tab-content{
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.module-tabs-me{
+  margin-bottom: 3px;
+  padding-bottom: 10%;
+}
+
+.form-control{
+  background-color: #f2f4f8;
+  border-radius: 0;
+  border:0;
+}
+
+.btn-link{
+  color: #8658d2;
+}
+
+.btn-link:hover{
+  color: #1edd8e;
+}
+
+.card-body{
+  color: #ffffff;
+  background-color: #212235;
+}
+
+.atom-icon{
+  text-align: center;
+  font-size: 50px;
+  color: #5ba333;
+}
+.adobe-icon{
+  text-align: center;
+  font-size: 50px;
+  color: #a548cb;
+}
+.bootstrap-icon{
+  text-align: center;
+  font-size: 50px;
+  color: #8c0dbf;
+}
+.github-icon{
+  text-align: center;
+  font-size: 50px;
+  color: #faf7fb;
+}
+.html-icon{
+  text-align: center;
+  font-size: 50px;
+  color: #ee720c;
+}
+
+.separation-img img{
+  padding-top: 130px;
+}
+
+.breadcrumbs p, a{
+  color: #8658d2;
+  font-size: 15px;
+}
+
+.breadcrumbs a:hover{
+  color: #1edd8e;
+}
+
+.borde{
+  border-bottom: 1px solid #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+#container {
+	margin: 0 auto;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	position: relative;
+}
+
+nav ul li:hover{
+    font-weight: 500;
+}
+
+nav ul li {
+
+	padding:-15px 0;
+}
+
+nav a {
+	padding:25px 10px;
+	font-size:20px;
+	text-decoration:none;
+}
+
+nav ul ul li:hover {
+	background-color: #000000;
+	font-weight: 500;
+}
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+	display: none;
+	position: absolute;
+	top: 30px; /* the height of the main nav */
+	padding: 25px 0;
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+	display:inherit;
+}
+
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+	width:170px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+
+/* Second, Third and more Tiers	*/
+nav ul ul ul li {
+	position: relative;
+	top:-55px;
+	left:170px;
+}
+
+
+/* Change this in order to change the Dropdown symbol */
+li > a:after { content:  ' +'; }
+li > a:only-child:after { content: ''; }

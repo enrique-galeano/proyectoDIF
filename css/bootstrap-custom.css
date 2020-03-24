@@ -1,0 +1,91 @@
+a{
+	outline:0 !important;
+}
+.navbar-light {
+	background-color:transparent!important;
+	font-size: 20px;
+	margin-top: 10px;
+}
+.navbar-light .navbar-nav .nav-link{
+	color:#000; /*Color de las palabras del menu*/
+	font-weight:300;
+	text-transform: uppercase;
+	font-size: 20px;
+	letter-spacing: 1px;
+	margin-right: 20px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color:#fff;/*Hover de las palabras del menu*/
+}
+.navbar-light .navbar-nav .active .nav-link{
+	background-color:transparent;
+	color:#000; /*Color de la palabra HOME*/
+}
+.navbar-light .navbar-nav .active .nav-link:hover{
+	background-color:transparent;
+	color:#ffffff;/*Hover de la palabra HOME*/
+}
+.btn-menu{
+	/*El cuadro estatico de la palabra contacto que ya no se usa para nada solo
+	tiene el hover en verde claro*/
+	border-radius: 0;
+	font-size: 20px;
+}
+
+.btn-menu:hover{
+	color: #ffffff!important;/*Hover de la palabra contacto*/
+}
+.navbar-light .navbar-nav .show > .nav-link{
+	color: #fff;/*No se de que es esto*/
+}
+.navbar-light .navbar-nav .show > .nav-link:focus,
+.navbar-light .navbar-nav .show > .nav-link:hover{
+    color: #fff;/*Click de Pages (cuando se presiona Pages se pone verde o de cualquier color que eligamos)*/
+    background-color: transparent;
+}
+
+.dropdown-menu{
+	background-color: rgba(9, 9, 9, 0.4);/*Color del dropdown menu de pages*/
+	border:0;/*No se que efecto visual tiene este borde*/
+}
+.dropdown-menu .dropdown-item{
+	font-weight:300!important;
+}
+.navbar-light .navbar-nav .show .dropdown-menu .dropdown-item{
+	color:#fff;/*Color de las palabras que van adentro del dropdown menu*/
+}
+.navbar-light .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-light .navbar-nav .show .dropdown-menu .dropdown-itema:focus {
+  color: rgb(223, 56, 3);/*Hover de las palabras que van adentro del dropdown menu*/
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.navbar-light .navbar-toggler{
+	background-color: transparent;
+	border:1px solid #000;
+}
+.navbar-light .navbar-toggler:hover,
+.navbar-light .navbar-toggler:focus
+{
+    background-color: transparent;
+	cursor:pointer;
+}
+.navbar-light .navbar-toggler-icon {
+    background-color: transparent;
+}
+
+.navbar-light .navbar-toggle:hover .icon-bar {
+  background-color: #8B2588;/*No se que efecto visual tiene esto*/
+	cursor:pointer;
+}
+.navbar-light .navbar-brand {
+	color:#363636;/*No se que efecto visual tiene esto*/
+	height: auto;
+}
+.navbar-light .navbar-brand:hover {
+ 	color:#1F81BF;/*No se que efecto visual tiene esto*/
+}
+.navbar-light .navbar-brand img{
+
+}
